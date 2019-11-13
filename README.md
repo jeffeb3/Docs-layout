@@ -51,6 +51,6 @@ ___
     - estlcam 2.5
   - troubleshooting
     - reverse stepper
-    - Jamie's test
+    - Jamie's test - https://www.v1engineering.com/forum/topic/test-pattern-generator/
     
 `
