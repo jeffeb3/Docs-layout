@@ -1,6 +1,6 @@
 # Docs-layout
 
-
+Just a rough idea of what it could be. The pages can happen over time, but the list gives an idea of the sort of thing in each group.
 ___
 
 -Landing page - index(maybe the current landing page and about combined)
@@ -18,11 +18,11 @@ ___
   - basic testing - basic page with a link to Boards section below each should have the most simple basic test with it
   - troubleshooting - links to below if needed, reverse stepper, loose pulley symtoms. Maybe all links
 - LR
-  -same layout as MPCNC
+  - same layout as MPCNC
 - Zenxy
-  -same
+  - same
 - MP3DP
-  -same
+  - same
 - Advanced (or something)
   - Boards - intro page maybe sorted by # of drivers 
     - rambo - each board should link pins(laser pins), and prefered firmware, basic use as in repetier, move 10mm (works for all machines)
@@ -31,15 +31,22 @@ ___
     - Ramps
     - skr
     - whatever
+  - firmware - just my marlin, or subs with grbl, esp, etc.  
   - Control - intro  what is repetier vs v1 pi
-    -repetier
-    -v1pi
-    -estlcam control
-  -Cad - intro what 
-    -fusion
-    -librecad-
-    -scad
-    -inscape?
-  -Cam - intro
-    -estlcam
-    -fusion
+    - repetier
+    - v1pi
+    - estlcam control
+  - Cad - intro what 
+    - fusion
+    - librecad-
+    - scad
+    - inscape?
+  - Cam - intro
+    - estlcam basic
+    - fusion
+  - uses
+    - milling basics -would need a rework to be more generic
+    - drag knife
+    - laser
+    - estlcam 2.5
+ 
