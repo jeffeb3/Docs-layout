@@ -2,7 +2,7 @@
 
 Just a rough idea of what it could be. The pages can happen over time, but the list gives an idea of the sort of thing in each group.
 ___
-
+`
 -Landing page - index(maybe the current landing page and about combined)
 -MPCNC - mpcnc/index refined at some point but a summary with links to things like cost, uses, dual endstops
   - Parts
@@ -49,4 +49,8 @@ ___
     - drag knife
     - laser
     - estlcam 2.5
- 
+  - troubleshooting
+    - reverse stepper
+    - Jamie's test
+    
+`
