@@ -44,8 +44,9 @@ ___
   - Cam - intro
     - estlcam basic
     - fusion
-  - uses
+  - uses (as generic as possible and ony specify when needed for LR or MPCNC, like mount links)
     - milling basics -would need a rework to be more generic
+    - 3D Printing
     - drag knife
     - laser
     - estlcam 2.5
