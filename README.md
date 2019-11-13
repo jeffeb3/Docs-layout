@@ -24,3 +24,22 @@ ___
 - MP3DP
   -same
 - Advanced (or something)
+  - Boards - intro page maybe sorted by # of drivers 
+    - rambo - each board should link pins(laser pins), and prefered firmware, basic use as in repetier, move 10mm (works for all machines)
+    - mini
+    - Archim
+    - Ramps
+    - skr
+    - whatever
+  - Control - intro  what is repetier vs v1 pi
+    -repetier
+    -v1pi
+    -estlcam control
+  -Cad - intro what 
+    -fusion
+    -librecad-
+    -scad
+    -inscape?
+  -Cam - intro
+    -estlcam
+    -fusion
