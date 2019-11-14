@@ -2,56 +2,100 @@
 
 Just a rough idea of what it could be. The pages can happen over time, but the list gives an idea of the sort of thing in each group.
 ___
-`
 - Landing page - index(maybe the current landing page and about combined)
-- MPCNC - mpcnc/index refined at some point but a summary with links to things like cost, uses, dual endstops
-  - Parts
-  - Assembly:
-     - Table: mpcnc/table.md
-     - Conduit: mpcnc/conduit.md
-     - Corners, Rollers, Base: mpcnc/base.md
-     - Z-Axis: mpcnc/z-axis.md
-     - Middle Assembly: mpcnc/middle-assm.md
-     - Gantry: mpcnc/gantry.md
-     - Final: mpcnc/final.md
-     - Belts: mpcnc/belts.md
-  - basic testing - basic page with a link to Boards section below each should have the most simple basic test with it
-  - troubleshooting - links to below if needed, reverse stepper, loose pulley symtoms. Maybe all links
-- LR
-  - same layout as MPCNC
-- Zenxy
-  - same
-- MP3DP
-  - same
-- Advanced (or something)
-  - Boards - intro page maybe sorted by # of drivers 
-    - rambo - each board should link pins(laser pins), and prefered firmware, basic use as in repetier, move 10mm (works for all machines)
-    - mini
-    - Archim
-    - Ramps
-    - skr
-    - whatever
-  - firmware - just my marlin, or subs with grbl, esp, etc.  
-  - Control - intro  what is repetier vs v1 pi
-    - repetier
-    - v1pi
-    - estlcam control
-  - Cad - intro what 
+- Instructions:
+  - MPCNC - mpcnc/index refined at some point but a summary with links to things like cost, uses, dual endstops
+    - Parts
+    - Design/Getting Started/Questions - What size do you need? Are you going to mill, print, laser, etc?
+    - Assembly:
+       - Table: mpcnc/table.md
+       - Conduit: mpcnc/conduit.md
+       - Corners, Rollers, Base: mpcnc/base.md
+       - Z-Axis: mpcnc/z-axis.md
+       - Middle Assembly: mpcnc/middle-assm.md
+       - Gantry: mpcnc/gantry.md
+       - Final: mpcnc/final.md
+       - Belts: mpcnc/belts.md
+     - Advanced Build Options:
+       - Dual Endstops
+  - LR
+    - Parts
+    - Design
+    - Assembly
+  - ZenXY
+    - Parts
+    - Design
+    - Assembly
+  - MP3DP
+    - Parts
+    - Design
+    - Assembly
+  - Firmware
+    - Marlin
+      - Firmware Flashing Instructions
+      - Marlin Configuration
+    - Grbl
+      - Flashing
+      - Instructions
+    - Grbl ESP32...
+    - Etc.
+  - CNC Software and Calibration (Pen testing? Haha) (Checkout?)
+    - Control
+      - Repetier-host
+    - basic testing - basic page with a link to Firmware and Boards section below each should have the most simple basic test with it
+      - Test Crown
+      - Jamie's test - https://www.v1engineering.com/forum/topic/test-pattern-generator/
+    - Endstop Setup
+  - Workflow
+    - Intro: What software do we use?
+      - CAD, CAM, Controller;
+      - Machine Setup and Checklist
+      - Safety?
+- Information:
+  - Controller - intro page maybe sorted by # of drivers
+    - board info:
+      - rambo - each board should link pins(laser pins), and prefered firmware, basic use as in repetier, move 10mm (works for all machines)
+      - mini
+      - Archim
+      - Ramps
+      - skr
+      - Grbl_Esp32
+      - whatever
+    - drivers
+  - Endstops
+  - Control
+    - Repetier-host (This is in here again, but this is for information, the other was the minimum
+                     to get started).
+    - V1pi
+    - Estlcam Control?
+  - Milling
+    - Router list w/ mounts, forum posts?
+    - Estlcam Settings
+    - Estlcam - The Basics
+    - Estlcam - 2.5, or whatever
+    - Fusion
+  - Printing
+    - Slic3r
+    - Import Extruder
+  - Lasers
+  - Drawing
+  - Drag Knife
+  - ZenXY
+    - Sandify
+    - Egg thing
+    - other/sisyphus
+  - Cad - intro what
     - fusion
     - librecad-
     - scad
-    - inscape?
-  - Cam - intro
-    - estlcam basic
-    - fusion
-  - uses (as generic as possible and ony specify when needed for LR or MPCNC, like mount links)
-    - milling basics -would need a rework to be more generic
-    - 3D Printing
-    - drag knife
-    - laser
-    - estlcam 2.5
-  - troubleshooting
-    - reverse stepper
-    - Jamie's test - https://www.v1engineering.com/forum/topic/test-pattern-generator/
-    
-`
+    - inkscape?
+- Impractical Knowledge
+  - Understanding GCode
+  - Stepper Electronics
+  - Stepper Mechanics
+  - Coorinate Frames
+- Troubleshooting - links to below if needed, reverse stepper, loose pulley symtoms. Maybe all links
+- Meta
+  - Editing the docs
+  - mkdocs reference
+  - Forum info?
